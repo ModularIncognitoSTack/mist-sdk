@@ -2,7 +2,7 @@
   "name": "@mist/sdk",
   "private": true,
   "version": "0.1.0",
-  "description": "SDK for interacting with MIST zero-knowledge proofs and smart contracts",
+  "description": "A TypeScript SDK for interacting with MIST zero-knowledge proofs and smart contracts",
   "license": "MIT",
   "author": "geovgy",
   "main": "dist/index.js",
