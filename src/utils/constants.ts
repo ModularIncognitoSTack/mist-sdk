@@ -1,0 +1,15 @@
+import { BigNumber } from "ethers";
+
+
+export const SCALAR_FIELD = BigNumber.from(
+    '21888242871839275222246405745257275088548364400416034343698204186575808495617'
+)
+
+export const ROLES = {
+    SPENDER: BigInt(1),
+    GUARDIAN: BigInt(0),
+}
+
+export const NULL_ADDRESS = "0x0000000000000000000000000000000000000000"
+
+export const MERKLE_DEPTH = 20
