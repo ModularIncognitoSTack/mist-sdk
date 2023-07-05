@@ -1,15 +1,25 @@
 {
-  "name": "@mist/sdk",
-  "private": true,
+  "name": "@usemist/sdk",
   "version": "0.1.0",
   "description": "A TypeScript SDK for interacting with MIST zero-knowledge proofs and smart contracts",
   "license": "MIT",
   "author": "geovgy",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/ModularIncognitoSTack/mist-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ModularIncognitoSTack/mist-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ModularIncognitoSTack/mist-sdk/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "ts-mocha -p tsconfig.json test/**/*.ts --timeout 30000 --exit",
