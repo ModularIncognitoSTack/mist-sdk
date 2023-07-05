@@ -6,11 +6,11 @@ Install the SDK as a dependency in your project with either npm or yarn.
 
 npm:
 ```bash
-npm install @mist/sdk
+npm install @usemist/sdk
 ```
 yarn:
 ```bash
-yarn add @mist/sdk
+yarn add @usemist/sdk
 ```
 
 ## Getting Started
@@ -18,7 +18,7 @@ For generating zero-knowledge proofs needed in the MIST smart contracts, it is r
 
 1. Setup the prover.
 ```typescript
-import { Prover } from '@mist/sdk'
+import { Prover } from '@usemist/sdk'
 
 const prover = new Prover({
     baseURI: 'MIST API link',
